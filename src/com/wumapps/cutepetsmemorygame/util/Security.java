@@ -13,7 +13,7 @@
  * limitations under the License.
  */
 
-package com.wimjetgames.cutepetsmemorygame.util;
+package com.wumapps.cutepetsmemorygame.util;
 
 import java.security.InvalidKeyException;
 import java.security.KeyFactory;

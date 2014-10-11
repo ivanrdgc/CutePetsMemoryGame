@@ -1,16 +1,17 @@
-package com.wimjetgames.cutepetsmemorygame.screens;
+package com.wumapps.cutepetsmemorygame.screens;
 
 import java.util.ArrayList;
 import java.util.Collections;
 
 import android.graphics.Color;
 
-import com.wimjetgames.cutepetsmemorygame.MemoryApp;
-import com.wimjetgames.cutepetsmemorygame.MemoryGame;
-import com.wimjetgames.cutepetsmemorygame.MemoryGame.Level;
 import com.wimjetgames.framework.WimjetGame;
 import com.wimjetgames.framework.WimjetGraphics.Align;
 import com.wimjetgames.framework.WimjetScreen;
+import com.wumapps.cutepetsmemorygame.MemoryApp;
+import com.wumapps.cutepetsmemorygame.MemoryGame;
+import com.wumapps.cutepetsmemorygame.ParseClass;
+import com.wumapps.cutepetsmemorygame.MemoryGame.Level;
 
 public class GameScreen extends WimjetScreen {	
 	private int cols, rows, completed;
@@ -22,6 +23,7 @@ public class GameScreen extends WimjetScreen {
 	
 	public GameScreen(WimjetGame game) {
 		super(game);
+		ParseClass.GameStarted();
 		autoClean = false;
 		
 		if (MemoryGame.level == Level.Easy) {

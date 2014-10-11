@@ -1,4 +1,4 @@
-package com.wimjetgames.cutepetsmemorygame;
+package com.wumapps.cutepetsmemorygame;
 
 import java.util.ArrayList;
 import java.util.Collections;

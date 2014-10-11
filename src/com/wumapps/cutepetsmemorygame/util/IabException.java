@@ -13,7 +13,7 @@
  * limitations under the License.
  */
 
-package com.wimjetgames.cutepetsmemorygame.util;
+package com.wumapps.cutepetsmemorygame.util;
 
 /**
  * Exception thrown when something went wrong with in-app billing.

@@ -1,10 +1,10 @@
-package com.wimjetgames.cutepetsmemorygame.screens;
+package com.wumapps.cutepetsmemorygame.screens;
 
-import com.wimjetgames.cutepetsmemorygame.MemoryGame;
-import com.wimjetgames.cutepetsmemorygame.MemoryGame.Level;
 import com.wimjetgames.framework.WimjetGame;
 import com.wimjetgames.framework.WimjetGraphics.Align;
 import com.wimjetgames.framework.WimjetScreen;
+import com.wumapps.cutepetsmemorygame.MemoryGame;
+import com.wumapps.cutepetsmemorygame.MemoryGame.Level;
 
 public class ChooseLevelScreen extends WimjetScreen {
 
