@@ -12,6 +12,7 @@ public class WimjetAudio {
 	private AssetManager assets;
 	private SoundPool soundPool;
 
+	@SuppressWarnings("deprecation")
 	public WimjetAudio(Activity activity) {
 		activity.setVolumeControlStream(AudioManager.STREAM_MUSIC);
 		this.assets = activity.getAssets();
