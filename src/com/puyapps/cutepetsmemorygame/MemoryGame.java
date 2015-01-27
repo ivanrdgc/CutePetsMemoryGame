@@ -2,6 +2,7 @@ package com.puyapps.cutepetsmemorygame;
 
 import org.onepf.oms.OpenIabHelper;
 import org.onepf.oms.SkuManager;
+import org.onepf.oms.SkuMappingException;
 import org.onepf.oms.appstore.googleUtils.IabHelper;
 import org.onepf.oms.appstore.googleUtils.IabResult;
 import org.onepf.oms.appstore.googleUtils.Inventory;
@@ -65,7 +66,9 @@ public class MemoryGame extends PuyGame {
 		builder.setVerifyMode(OpenIabHelper.Options.VERIFY_EVERYTHING);
 		builder.addStoreKey(OpenIabHelper.NAME_GOOGLE, base64EncodedPublicKey);
 		mHelper = new OpenIabHelper(this, builder.build());
-		SkuManager.getInstance().mapSku(SKU_PREMIUM, OpenIabHelper.NAME_GOOGLE, SKU_PREMIUM);
+		try {
+			SkuManager.getInstance().mapSku(SKU_PREMIUM, OpenIabHelper.NAME_GOOGLE, SKU_PREMIUM);
+		} catch(final SkuMappingException e) {}
 		
 		mHelper.startSetup(new IabHelper.OnIabSetupFinishedListener() {
 			public void onIabSetupFinished(final IabResult result) {
