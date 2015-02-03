@@ -69,6 +69,9 @@ public class MemoryGame extends PuyGame {
 		try {
 			SkuManager.getInstance().mapSku(SKU_PREMIUM, OpenIabHelper.NAME_GOOGLE, SKU_PREMIUM);
 		} catch(final SkuMappingException e) {}
+		try {
+			SkuManager.getInstance().mapSku(SKU_PREMIUM, OpenIabHelper.NAME_AMAZON, SKU_PREMIUM);
+		} catch(final SkuMappingException e) {}
 		
 		mHelper.startSetup(new IabHelper.OnIabSetupFinishedListener() {
 			public void onIabSetupFinished(final IabResult result) {
