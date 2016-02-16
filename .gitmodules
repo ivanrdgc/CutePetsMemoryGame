@@ -1,0 +1,6 @@
+[submodule "OpenIAB"]
+	path = OpenIAB
+	url = git@github.com:onepf/OpenIAB.git
+[submodule "Parse-SDK-Android"]
+	path = Parse-SDK-Android
+	url = git@github.com:ParsePlatform/Parse-SDK-Android.git
