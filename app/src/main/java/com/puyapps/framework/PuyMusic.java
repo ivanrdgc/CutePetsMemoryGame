@@ -9,6 +9,9 @@ import android.media.MediaPlayer.OnPreparedListener;
 import android.media.MediaPlayer.OnSeekCompleteListener;
 import android.media.MediaPlayer.OnVideoSizeChangedListener;
 
+/**
+ * Define music stream and provides manipulation functions
+ */
 public class PuyMusic implements OnCompletionListener, OnSeekCompleteListener, OnPreparedListener, OnVideoSizeChangedListener {
 	private MediaPlayer mediaPlayer;
 	private boolean isPrepared;

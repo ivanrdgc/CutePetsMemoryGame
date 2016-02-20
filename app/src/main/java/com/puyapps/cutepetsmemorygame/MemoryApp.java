@@ -12,7 +12,6 @@ public class MemoryApp<T> {
 	private boolean[] visible;
 	private float[] timeout;
 	
-	@SuppressWarnings("unchecked")
 	public MemoryApp(List<T> values, int cols, int rows) {
 		if (cols * rows % 2 == 1 || cols < 1 || rows < 1 || cols * rows < 2 || cols * rows / 2 != values.size()) {
 			throw new RuntimeException("Invalid table: " + cols + "x" + rows + ". Elements: " + values.size());

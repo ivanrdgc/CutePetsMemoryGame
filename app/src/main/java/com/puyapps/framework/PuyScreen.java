@@ -1,6 +1,8 @@
 package com.puyapps.framework;
 
-
+/**
+ * Defines a game screen and provides callbacks for game development.
+ */
 public abstract class PuyScreen {
 	protected final PuyGame game;
 	protected PuyGraphics g;

@@ -14,6 +14,9 @@ import android.graphics.Paint;
 import android.graphics.Paint.Style;
 import android.graphics.Rect;
 
+/**
+ * Defines graphics to be included in Screens
+ */
 public class PuyGraphics {
 	private AssetManager assets;
 	private Bitmap frameBuffer;

@@ -2,6 +2,9 @@ package com.puyapps.framework;
 
 import android.media.SoundPool;
 
+/**
+ * Define audio strem and provides manipulation functions
+ */
 public class PuySound {
 	private int soundId;
 	private SoundPool soundPool;

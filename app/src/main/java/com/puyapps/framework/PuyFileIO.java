@@ -13,6 +13,9 @@ import android.content.res.AssetManager;
 import android.os.Environment;
 import android.preference.PreferenceManager;
 
+/**
+ * Provides access to files in assets folder
+ */
 public class PuyFileIO {
 	private Context context;
 	private AssetManager assets;

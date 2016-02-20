@@ -10,6 +10,9 @@ import android.view.View.OnTouchListener;
 import com.puyapps.framework.PuyInput.WimjetTouchEvent;
 import com.puyapps.framework.PuyPool.PoolObjectFactory;
 
+/**
+ * Provides callbacks for screen touch events.
+ */
 public class PuyTouchHandler implements OnTouchListener {
 	private static final int MAX_TOUCHPOINTS = 10;
 

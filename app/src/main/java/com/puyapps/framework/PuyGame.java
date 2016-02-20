@@ -9,6 +9,9 @@ import android.os.Bundle;
 import android.util.DisplayMetrics;
 import android.view.WindowManager;
 
+/**
+ * Main game activity.
+ */
 public abstract class PuyGame extends Activity {
 	protected PuyFastRenderView renderView;
 	private PuyGraphics graphics;

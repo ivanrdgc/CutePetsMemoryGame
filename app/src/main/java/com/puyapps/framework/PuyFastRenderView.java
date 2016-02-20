@@ -12,6 +12,9 @@ import android.view.SurfaceView;
 
 import com.puyapps.framework.PuyInput.WimjetTouchEvent;
 
+/**
+ * Provides android view for the game activity
+ */
 public class PuyFastRenderView extends SurfaceView implements Runnable {
 	private PuyGame game;
 	private Bitmap framebuffer;

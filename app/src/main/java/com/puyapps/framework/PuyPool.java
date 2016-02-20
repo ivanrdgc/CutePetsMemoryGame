@@ -3,6 +3,10 @@ package com.puyapps.framework;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * Simple pool
+ * @param <T>
+ */
 public class PuyPool<T> {
 	public interface PoolObjectFactory<T> {
 		public T createObject();
